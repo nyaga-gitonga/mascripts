@@ -14,5 +14,16 @@ return str.split('').reverse().join('')
 const reverse= string => 
 string.split("").reduce((result,character)=> character + result)
 
+
+function _reverse(str){
+    let revString='';
+    for(let char of str){
+      revString=char + revString
+    }
+
+    return revString;
+}
+
 console.log(reversestring("baraka"))
 console.log(reverse("Samaki"))
+console.log(_reverse('julius'))
