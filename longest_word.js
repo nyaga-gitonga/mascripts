@@ -16,7 +16,7 @@ function longestWord(string){
  return longest*/
 
    // Create filtered array
-   const wordArr = sen.toLowerCase().match(/[a-z0-9]+/g);
+   const wordArr = string.toLowerCase().match(/[a-z0-9]+/g);
 
    // Sort by length
    const sorted = wordArr.sort((a, b) => b.length - a.length);
